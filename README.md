@@ -74,7 +74,7 @@ python manage.py runserver
 http://127.0.0.1:8000/
 ```
 ---
-##🔗 Available URLs
+## 🔗 Available URLs
 
 | Path             | Purpose               |
 | ---------------- | --------------------- |
@@ -88,7 +88,7 @@ http://127.0.0.1:8000/
 
 ---
 
-##🧬 Models Overview
+## 🧬 Models Overview
 
 -User – Django's built-in auth.User
 
