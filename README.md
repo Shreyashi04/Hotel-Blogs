@@ -4,19 +4,6 @@
 
 ---
 
-## 📌 Table of Contents
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Screenshots](#-screenshots)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Available URLs](#-available-urls)
-- [Models Overview](#-models-overview)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Acknowledgments](#-acknowledgments)
-
----
 
 ## 🚀 Features
 - 🔒 **User Authentication:** Register, Login, Logout  
@@ -86,7 +73,7 @@ python manage.py runserver
 ```
 http://127.0.0.1:8000/
 ```
---
+---
 ##🔗 Available URLs
 
 | Path             | Purpose               |
@@ -99,7 +86,7 @@ http://127.0.0.1:8000/
 | `/logout/`       | Logout user           |
 | `/listing/<id>/` | Detailed listing page |
 
---
+---
 
 ##🧬 Models Overview
 
@@ -120,7 +107,7 @@ http://127.0.0.1:8000/
   rating, comment
   ForeignKey to Listing and User
 
---
+---
 ## 📜 License  
 
 This project is licensed under the **MIT License**.  
