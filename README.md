@@ -90,22 +90,22 @@ http://127.0.0.1:8000/
 
 ## 🧬 Models Overview
 
--User – Django's built-in auth.User
+- User – Django's built-in auth.User
 
--Profile (authy.models.Profile)
-  user (OneToOneField)
-  image
-  bio / details
+- Profile (authy.models.Profile)
+  - user (OneToOneField)
+  - image
+  - bio / details
 
--Listing (post.models.Listing)
+- Listing (post.models.Listing)
   title, address, photos, owner
 
--Photo (post.models.Photo)
+- Photo (post.models.Photo)
   ForeignKey to Listing
 
--Review (post.models.Review)
-  rating, comment
-  ForeignKey to Listing and User
+- Review (post.models.Review)
+  - rating, comment
+  - ForeignKey to Listing and User
 
 ---
 ## 📜 License  
